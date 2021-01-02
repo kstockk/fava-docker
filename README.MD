@@ -1,6 +1,6 @@
 # fava-docker
 
-fava-beancount in a docker container. (includes additional custom bean-price scripts)
+beancount-fava in a docker container. (includes additional custom bean-price scripts)
 
 ## Quickstart
 
