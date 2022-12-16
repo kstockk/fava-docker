@@ -11,5 +11,6 @@ docker run -d \
            -v /bean:/bean \
            -e BEANCOUNT_FILE=/bean/master.beancount \
            --restart always \
-           lykhee/fava-docker 
+           kstockk/fava-docker 
 ```
+    
