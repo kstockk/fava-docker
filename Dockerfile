@@ -16,7 +16,7 @@ RUN python setup.py install
 WORKDIR /tmp/build/fetch-unit-prices
 RUN python setup.py install
 
-RUN pip install fava fava[excel] https://github.com/xuhcc/beancount-cryptoassets/archive/master.zip
+RUN pip install fava fava[excel] https://github.com/xuhcc/beancount-cryptoassets/archive/master.zip git+https://github.com/beancount/beanprice.git
 
 RUN find /usr/local -name __pycache__ -exec rm -rf -v {} +
 
